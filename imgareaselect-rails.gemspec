@@ -16,4 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Imgareaselect::Rails::VERSION
 
   gem.add_runtime_dependency 'rails', '>= 3.1'
+  gem.add_development_dependency 'sass-rails'
+  gem.add_runtime_dependency 'sass', '~> 3.2'
 end
